@@ -5,7 +5,7 @@ import pars
 
 
 
-bot = telebot.TeleBot('1165480030:AAH_B-smXrpW2C8l3pGDzE9osHwrMO_EKAY')
+bot = telebot.TeleBot('Your token')
 
 
 @bot.message_handler(commands=['start'])
