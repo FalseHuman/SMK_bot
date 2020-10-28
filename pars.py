@@ -16,7 +16,7 @@ def pars(message_user):
             if '.pdf' in a['href'] and message_user == 'проверить':
                 post.append(f"http://salavatmk.ru{a['href']}")
         
-        if len(post) == 0:
+        if len(post) == 0:# если нет расписания
             return f"На сайте еще нет расписания"
         else:
             return post[-1]
