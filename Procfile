@@ -1,2 +1,2 @@
 worker: python bot.py
-processor : python pars.py
+processor: python pars.py
